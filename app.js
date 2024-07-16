@@ -3,10 +3,10 @@ const $$ = document.querySelectorAll.bind(document);
 
 const tabs = $$('.tab-item');
 const panes = $$('.tab-pane');
-const tabActive = $('.tab-item.active');
+// const tabActive = $('.tab-item.active');
 const line = $('.tabs .line');
 
-setLine(line, tabActive); // chạy hàm setLine gửi vào tham số line và tabActive
+// setLine(line, tabActive); // chạy hàm setLine gửi vào tham số line và tabActive
 
 function setLine(line, tab) { // tab chỉ là tham số không quan tâm cách đặt tên
     line.style.left = tab.offsetLeft + 'px'
